@@ -11,7 +11,7 @@ public class Bai2 {
         int b = scanner.nextInt();
         System.out.print("Nhập hằng số tự do, c = ");
         int c = scanner.nextInt();
-        bai2.giaiPTBac2(a ,b ,c);
+        Bai2.giaiPTBac2(a ,b ,c);
     }
 
     public static void giaiPTBac2(int a, int b, int c) {
