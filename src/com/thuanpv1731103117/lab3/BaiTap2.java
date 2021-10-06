@@ -1,6 +1,6 @@
 package com.thuanpv1731103117.lab3;
 
-public class bai2 {
+public class BaiTap2 {
     public static void main(String[] args) {
         int x = 8;
         for(int i=1;i<=9;i++){
