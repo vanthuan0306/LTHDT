@@ -41,7 +41,7 @@ public class Xe {
         System.out.println("Tên chủ xe: "+tenChuXe);
         System.out.println("Dòng xe: "+dongXe);
         System.out.println("Hãng xe: "+hangSX);
-        System.out.print("Giấy phép sản xuất: Năm "+giayPhep);
+        System.out.println("Giấy phép sản xuất: Năm "+giayPhep);
         System.out.print("Dung tích bình xăng: "+dtXang);
         System.out.println(" lít");
     }

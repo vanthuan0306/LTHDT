@@ -31,7 +31,7 @@ public class Sach {
         giaBan = n;
     }
 
-    void gioiThieuSach(){
+    void xuatThongTin(){
         System.out.println("Loại Sách: "+loai);
         System.out.println("Nhà xuất bản: "+nhaXuatBan);
         System.out.println("Năm xuất bản: "+namXuatBan);

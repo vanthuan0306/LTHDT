@@ -35,9 +35,9 @@ public class NhanVien {
         System.out.println("Lương: "+luong);
     }
 
-    double tinhLuong(int thang){
+    double tinhLuong(int ngay){
         double tien;
-        tien = thang*luong;
+        tien = ngay*luong;
         return tien;
     } 
 }
