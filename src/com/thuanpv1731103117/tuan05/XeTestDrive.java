@@ -13,5 +13,5 @@ public class XeTestDrive {
         xe = new Xe(2020,2.75);
         xe.xuatThongTin();
         }
+    }
 
-}
