@@ -23,7 +23,7 @@ public class Amoeba extends Shape {
     }
 
     public void playSound(){
-        System.out.println("Phát âm thanh Amoeba.HIF");
+        System.out.println("Phát âm thanh " +getAmThanh());
     }
 
 }

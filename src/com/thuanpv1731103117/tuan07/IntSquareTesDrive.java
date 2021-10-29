@@ -1,6 +1,5 @@
 package com.thuanpv1731103117.tuan07;
 
-import com.thuanpv1731103117.tuan06.Square;
 
 public class IntSquareTesDrive {
 
