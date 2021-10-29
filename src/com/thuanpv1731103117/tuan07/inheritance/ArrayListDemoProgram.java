@@ -33,6 +33,7 @@ public class ArrayListDemoProgram {
         list2.add(circle);
         list2.add(square);
         list2.add(triangle);
+        list2.add(amoeba);
         
         //cách 1
         for (Shape shape : list2){
