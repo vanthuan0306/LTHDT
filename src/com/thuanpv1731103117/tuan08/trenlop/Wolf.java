@@ -1,4 +1,4 @@
-package com.thuanpv1731103117.tuan08.tenlop;
+package com.thuanpv1731103117.tuan08.trenlop;
 
 public class Wolf extends Feline{
     public Wolf(){

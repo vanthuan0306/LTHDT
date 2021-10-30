@@ -1,4 +1,4 @@
-package com.thuanpv1731103117.tuan08.tenlop;
+package com.thuanpv1731103117.tuan08.trenlop;
 
 public class Animal {
     protected String sound;// tên file âm thanh dành cho loại khác nhau

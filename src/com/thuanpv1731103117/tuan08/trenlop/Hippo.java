@@ -1,4 +1,4 @@
-package com.thuanpv1731103117.tuan08.tenlop;
+package com.thuanpv1731103117.tuan08.trenlop;
 
 public class Hippo extends Animal {
     public Hippo(){
