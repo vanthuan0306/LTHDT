@@ -1,43 +1,58 @@
 package com.thuanpv1731103117.tuan08.tenlop;
 
 public class Animal {
-    protected String sound;
-    protected String img;
+    protected String sound;// tên file âm thanh dành cho loại khác nhau
+    private String name;
+
+    protected String picture;
+
+    protected int hunger;
+
     protected String food;
-    protected String timeSleep;
-    protected String move;
-    protected String live;
-    protected String type;
 
-
-    protected void picture(){
-        System.out.println("Hình ảnh của con vật: "+img);
+    public Animal(){
+        //super();
+        System.out.println("making a Animal ...");
     }
+
+    public Animal(String n){
+        name = n;
+    }
+
+    //location
+
+    //boundaries
 
     protected void makeNoise(){
-        System.out.println("Âm thanh phát ra của con vật là: " +sound);
-
+        //code để xử lý phát ra tiếng kêu
+        //System.out.println("Phát ra tiếng kêu " + sound);
+        System.out.println("Hmm...");
     }
-    
 
     protected void eat(){
-        System.out.println("Thức ăn của con vật là: " +food);
-
+        System.out.println("Ăn ...");
     }
 
+
     protected void sleep(){
-        System.out.println("Thời gian ngủ của con vật là: " +timeSleep);
+        System.out.println("Ngủ ...");
     }
 
     protected void roam(){
-        System.out.println("Phương thức đi lại: "+move);
+        System.out.println("Đi lang thang...");
     }
 
-    protected void animalType(){
-        System.out.println("Loại động vật: "+type);
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
     }
-    
-    protected void living(){
-        System.out.println("Nơi sống: "+live);
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
     }
 }
