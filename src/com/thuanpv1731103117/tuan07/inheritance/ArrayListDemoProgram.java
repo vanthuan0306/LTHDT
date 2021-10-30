@@ -3,8 +3,8 @@ package com.thuanpv1731103117.tuan07.inheritance;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.thuanpv1731103117.tuan07.dongvat.Animal;
-import com.thuanpv1731103117.tuan07.dongvat.Dog;
+//import com.thuanpv1731103117.tuan07.dongvat.Animal;
+//import com.thuanpv1731103117.tuan07.dongvat.Dog;
 public class ArrayListDemoProgram {
     public static void main(String[] args) {
         List<String> list;
@@ -50,9 +50,9 @@ public class ArrayListDemoProgram {
 
         // }
 
-        List<Animal> list3;
+    //     List<Animal> list3;
 
-        List<Dog> list4;
+    //     List<Dog> list4;
     }
     
 
