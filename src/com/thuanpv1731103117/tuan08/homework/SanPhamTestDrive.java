@@ -61,9 +61,7 @@ public class SanPhamTestDrive {
     //         System.out.println("Thông tin sản phẩm " +i+ ". ");
     //         sp.xuatThongTin();
     //         System.out.println("");
-    //     }
-        
-        
+    //     }       
     //}
     
 }

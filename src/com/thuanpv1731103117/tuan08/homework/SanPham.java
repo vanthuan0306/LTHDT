@@ -21,6 +21,17 @@ public class SanPham {
         this.donGia = donGia;
         this.giamGia = giamGia; 
     }
+    public SanPham(String a, double b, double c){
+        tenSp = a;
+        donGia = b;
+        giamGia = c;
+    }
+    public SanPham(String x, double y){
+        tenSp = x;
+        donGia = y;
+        giamGia = 0;
+       
+    }
     
     protected void xuat(){
 
